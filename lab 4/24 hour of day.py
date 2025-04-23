@@ -1,0 +1,12 @@
+def print_time_with_suffix():
+    for hour in range(24):
+        if hour == 0:
+            print("12:00 Midnight")
+        elif hour == 12:
+            print("12:00 Noon")
+        elif hour < 12:
+            print("hour:00 AM")
+        else:
+            print("hour-12:00 PM")
+
+print_time_with_suffix()
